@@ -1,0 +1,273 @@
+TTic-Tac-Minimax
+v6
+r1
+cCheck dependencies
+cCompileC DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/JugadorMax.o /Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/JugadorMax.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/main.o /Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/Partida.o /Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/Partida.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/Tablero.o /Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/Tablero.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/JugadorMin.o /Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/JugadorMin.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/NodoDeJuego.o /Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/NodoDeJuego.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Products/Debug/Tic-Tac-Minimax normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c00000000530295C100000000000000AA
+t1392678337
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c00000000534BBFD2000000000000044C
+t1397473234
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000534BBFD200000000000001DE
+t1397473234
+s478
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c00000000534BBFDA0000000000000ADC
+t1397473242
+s2780
+
+N/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/JugadorMax.o
+t1403026318
+s2068
+
+N/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/JugadorMin.o
+t1403026318
+s2068
+
+N/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/NodoDeJuego.o
+t1403026318
+s7112
+
+N/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/Partida.o
+t1403026318
+s125552
+
+N/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/Tablero.o
+t1403026318
+s7212
+
+N/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/Tic-Tac-Minimax.LinkFileList
+c0000000053A07B8D000000000000041B
+t1403026317
+s1051
+
+N/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/main.o
+t1403026318
+s28984
+
+N/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Products/Debug/Tic-Tac-Minimax
+t2
+s0
+
+N/Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/JugadorMax.cpp
+c0000000053A0536F00000000000000B0
+t1403016047
+s176
+
+N/Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/JugadorMin.cpp
+c0000000053A0536600000000000000B0
+t1403016038
+s176
+
+N/Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/NodoDeJuego.cpp
+c0000000053A07B7D000000000000030C
+t1403026301
+s780
+
+N/Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/Partida.cpp
+c0000000053A07B7700000000000003FB
+t1403026295
+s1019
+
+N/Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/Tablero.cpp
+c0000000053A0631200000000000004AA
+t1403020050
+s1194
+
+N/Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/main.cpp
+c0000000053A07B8D0000000000000190
+t1403026317
+s400
+
+CBuild AST from /Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/JugadorMax.cpp
+r0
+
+CBuild AST from /Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/JugadorMin.cpp
+r0
+
+CBuild AST from /Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/NodoDeJuego.cpp
+r0
+
+CBuild AST from /Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/Partida.cpp
+r0
+
+CBuild AST from /Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/Tablero.cpp
+r0
+
+CBuild AST from /Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/main.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesb020a90db350b941^302caf0db350b941^---0#1#1#--18"Check dependencies36"71EDF7A7-055D-4B30-86EE-82716BF568CD-
+
+CCompileC DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/JugadorMax.o /Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/JugadorMax.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s424719117.676610
+e424719118.166298
+r1
+xCompileC
+xDerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/JugadorMax.o
+x/Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/JugadorMax.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/JugadorMax.cpp
+d/Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/JugadorMax.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/JugadorMax.cpp234"CompileC DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/JugadorMax.o Tic-Tac-Minimax/JugadorMax.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerdb4cad0db350b941^6c932a0eb350b941^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/JugadorMax.cpp0000000000000000^3564"CompileC DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/JugadorMax.o Tic-Tac-Minimax/JugadorMax.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/antoniosastre/GitHub/Tic-Tac-Minimax    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Tic-Tac-Minimax-generated-files.hmap -I/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Tic-Tac-Minimax-own-target-headers.hmap -I/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Tic-Tac-Minimax-all-target-headers.hmap -iquote /Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Tic-Tac-Minimax-project-headers.hmap -I/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/DerivedSources/x86_64 -I/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/DerivedSources -F/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Products/Debug -MMD -MT dependencies -MF /Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/JugadorMax.d --serialize-diagnostics /Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/JugadorMax.dia -c /Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/JugadorMax.cpp -o /Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/JugadorMax.o36"BDFA736D-C438-46D7-8899-3A0D2A19F1F3-
+b3CAB75D2-B511-4693-ADD6-0E8C8A563F7B
+
+CCompileC DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/JugadorMin.o /Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/JugadorMin.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s424719117.677836
+e424719118.165051
+r1
+xCompileC
+xDerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/JugadorMin.o
+x/Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/JugadorMin.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/JugadorMin.cpp
+d/Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/JugadorMin.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/JugadorMin.cpp234"CompileC DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/JugadorMin.o Tic-Tac-Minimax/JugadorMin.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler23a1ad0db350b941^3e412a0eb350b941^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/JugadorMin.cpp0000000000000000^3564"CompileC DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/JugadorMin.o Tic-Tac-Minimax/JugadorMin.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/antoniosastre/GitHub/Tic-Tac-Minimax    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Tic-Tac-Minimax-generated-files.hmap -I/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Tic-Tac-Minimax-own-target-headers.hmap -I/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Tic-Tac-Minimax-all-target-headers.hmap -iquote /Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Tic-Tac-Minimax-project-headers.hmap -I/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/DerivedSources/x86_64 -I/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/DerivedSources -F/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Products/Debug -MMD -MT dependencies -MF /Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/JugadorMin.d --serialize-diagnostics /Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/JugadorMin.dia -c /Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/JugadorMin.cpp -o /Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/JugadorMin.o36"6F6D3BB3-9557-4A12-9334-FB45599C277E-
+b3CAB75D2-B511-4693-ADD6-0E8C8A563F7B
+
+CCompileC DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/NodoDeJuego.o /Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/NodoDeJuego.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s424719117.678145
+e424719118.149109
+r1
+xCompileC
+xDerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/NodoDeJuego.o
+x/Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/NodoDeJuego.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/NodoDeJuego.cpp
+d/Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/NodoDeJuego.h
+d/Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/Tablero.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/NodoDeJuego.cpp236"CompileC DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/NodoDeJuego.o Tic-Tac-Minimax/NodoDeJuego.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler96b1ad0db350b941^ed2c260eb350b941^---0#0#1#-19%DVTDocumentLocation2@82"file:///Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/NodoDeJuego.cpp0000000000000000^3570"CompileC DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/NodoDeJuego.o Tic-Tac-Minimax/NodoDeJuego.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/antoniosastre/GitHub/Tic-Tac-Minimax    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Tic-Tac-Minimax-generated-files.hmap -I/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Tic-Tac-Minimax-own-target-headers.hmap -I/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Tic-Tac-Minimax-all-target-headers.hmap -iquote /Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Tic-Tac-Minimax-project-headers.hmap -I/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/DerivedSources/x86_64 -I/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/DerivedSources -F/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Products/Debug -MMD -MT dependencies -MF /Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/NodoDeJuego.d --serialize-diagnostics /Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/NodoDeJuego.dia -c /Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/NodoDeJuego.cpp -o /Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/NodoDeJuego.o36"4CCE499C-B834-423D-8BDB-5BD25C64C962-
+b3CAB75D2-B511-4693-ADD6-0E8C8A563F7B
+
+CCompileC DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/Partida.o /Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/Partida.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s424719117.677130
+e424719118.249995
+r1
+xCompileC
+xDerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/Partida.o
+x/Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/Partida.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/Partida.cpp
+d/Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/Partida.h
+d/Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/JugadorMax.h
+d/Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/JugadorMin.h
+d/Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/NodoDeJuego.h
+d/Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/Tablero.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/Partida.cpp228"CompileC DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/Partida.o Tic-Tac-Minimax/Partida.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilera46cad0db350b941^a301400eb350b941^---0#0#1#-19%DVTDocumentLocation2@78"file:///Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/Partida.cpp0000000000000000^3546"CompileC DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/Partida.o Tic-Tac-Minimax/Partida.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/antoniosastre/GitHub/Tic-Tac-Minimax    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Tic-Tac-Minimax-generated-files.hmap -I/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Tic-Tac-Minimax-own-target-headers.hmap -I/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Tic-Tac-Minimax-all-target-headers.hmap -iquote /Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Tic-Tac-Minimax-project-headers.hmap -I/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/DerivedSources/x86_64 -I/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/DerivedSources -F/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Products/Debug -MMD -MT dependencies -MF /Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/Partida.d --serialize-diagnostics /Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/Partida.dia -c /Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/Partida.cpp -o /Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/Partida.o36"C6373252-A94A-4BBC-9F43-3EA5C4DAE705-
+b3CAB75D2-B511-4693-ADD6-0E8C8A563F7B
+
+CCompileC DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/Tablero.o /Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/Tablero.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s424719117.677410
+e424719118.182587
+r1
+xCompileC
+xDerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/Tablero.o
+x/Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/Tablero.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/Tablero.cpp
+d/Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/Tablero.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/Tablero.cpp228"CompileC DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/Tablero.o Tic-Tac-Minimax/Tablero.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilere883ad0db350b941^01bf2e0eb350b941^---0#0#1#-19%DVTDocumentLocation2@78"file:///Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/Tablero.cpp0000000000000000^3546"CompileC DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/Tablero.o Tic-Tac-Minimax/Tablero.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/antoniosastre/GitHub/Tic-Tac-Minimax    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Tic-Tac-Minimax-generated-files.hmap -I/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Tic-Tac-Minimax-own-target-headers.hmap -I/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Tic-Tac-Minimax-all-target-headers.hmap -iquote /Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Tic-Tac-Minimax-project-headers.hmap -I/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/DerivedSources/x86_64 -I/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/DerivedSources -F/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Products/Debug -MMD -MT dependencies -MF /Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/Tablero.d --serialize-diagnostics /Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/Tablero.dia -c /Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/Tablero.cpp -o /Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/Tablero.o36"7907F755-BFE9-45C0-AEFE-2EA3EFC0CA86-
+b3CAB75D2-B511-4693-ADD6-0E8C8A563F7B
+
+CCompileC DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/main.o /Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s424719117.676777
+e424719118.187189
+r1
+xCompileC
+xDerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/main.o
+x/Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/main.cpp
+d/Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/Partida.h
+d/Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/JugadorMax.h
+d/Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/JugadorMin.h
+d/Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/NodoDeJuego.h
+d/Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/Tablero.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/main.cpp222"CompileC DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/main.o Tic-Tac-Minimax/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilera950ad0db350b941^1cee2f0eb350b941^---0#0#1#-19%DVTDocumentLocation2@75"file:///Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/main.cpp0000000000000000^3528"CompileC DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/main.o Tic-Tac-Minimax/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/antoniosastre/GitHub/Tic-Tac-Minimax    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Tic-Tac-Minimax-generated-files.hmap -I/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Tic-Tac-Minimax-own-target-headers.hmap -I/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Tic-Tac-Minimax-all-target-headers.hmap -iquote /Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Tic-Tac-Minimax-project-headers.hmap -I/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/DerivedSources/x86_64 -I/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/DerivedSources -F/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Products/Debug -MMD -MT dependencies -MF /Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/main.dia -c /Users/antoniosastre/GitHub/Tic-Tac-Minimax/Tic-Tac-Minimax/main.cpp -o /Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/main.o36"3B528D11-305B-4D21-93C0-059CF2D710A1-
+b3CAB75D2-B511-4693-ADD6-0E8C8A563F7B
+
+CLd /Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Products/Debug/Tic-Tac-Minimax normal x86_64
+s424719118.250617
+e424719118.289269
+r1
+xLd
+x/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Products/Debug/Tic-Tac-Minimax
+xnormal
+xx86_64
+d/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/Tic-Tac-Minimax.LinkFileList
+d/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/JugadorMax.o
+d/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/main.o
+d/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/Partida.o
+d/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/Tablero.o
+d/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/JugadorMin.o
+d/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/NodoDeJuego.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libc++.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Link /Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Products/Debug/Tic-Tac-Minimax81"Ld DerivedData/Tic-Tac-Minimax/Build/Products/Debug/Tic-Tac-Minimax normal x86_648732400eb350b941^300e4a0eb350b941^---0#0#1#--1176"Ld DerivedData/Tic-Tac-Minimax/Build/Products/Debug/Tic-Tac-Minimax normal x86_64    cd /Users/antoniosastre/GitHub/Tic-Tac-Minimax    export MACOSX_DEPLOYMENT_TARGET=10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Products/Debug -F/Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Products/Debug -filelist /Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/Tic-Tac-Minimax.LinkFileList -mmacosx-version-min=10.9 -stdlib=libc++ -Xlinker -dependency_info -Xlinker /Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Intermediates/Tic-Tac-Minimax.build/Debug/Tic-Tac-Minimax.build/Objects-normal/x86_64/Tic-Tac-Minimax_dependency_info.dat -o /Users/antoniosastre/GitHub/Tic-Tac-Minimax/DerivedData/Tic-Tac-Minimax/Build/Products/Debug/Tic-Tac-Minimax36"29F20076-282C-4286-80F6-348CCF0E5300-
+b3CAB75D2-B511-4693-ADD6-0E8C8A563F7B
+

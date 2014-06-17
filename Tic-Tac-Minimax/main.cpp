@@ -7,12 +7,23 @@
 //
 
 #include <iostream>
+#include "Partida.h"
+#include "NodoDeJuego.h"
+
+using namespace std;
 
 int main(int argc, const char * argv[])
 {
 
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    Partida miPartida;
+    
+    NodoDeJuego primero;
+    
+    miPartida.desarrollar(&primero);
+    
+    cout << "Nº de Nodos obtenidos: " << miPartida.nnodos() << endl;
+    
+    
     return 0;
 }
 
