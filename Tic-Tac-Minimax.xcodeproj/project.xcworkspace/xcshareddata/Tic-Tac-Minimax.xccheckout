@@ -5,19 +5,31 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
+<<<<<<< HEAD
 	<string>1E1520A5-2C7F-471A-ABAC-9B36198F2C57</string>
+=======
+	<string>65AED537-390A-4D7F-8CFF-47E14C1AD34F</string>
+>>>>>>> FETCH_HEAD
 	<key>IDESourceControlProjectName</key>
 	<string>Tic-Tac-Minimax</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+<<<<<<< HEAD
 		<key>DFF34FB2-8D4A-4DBB-980A-E7E9DCE89458</key>
+=======
+		<key>8ED48584-07F1-4C49-97B4-08D062D96566</key>
+>>>>>>> FETCH_HEAD
 		<string>https://github.com/antoniosastre/Tic-Tac-Minimax.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Tic-Tac-Minimax.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+<<<<<<< HEAD
 		<key>DFF34FB2-8D4A-4DBB-980A-E7E9DCE89458</key>
+=======
+		<key>8ED48584-07F1-4C49-97B4-08D062D96566</key>
+>>>>>>> FETCH_HEAD
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +37,22 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
+<<<<<<< HEAD
 	<string>DFF34FB2-8D4A-4DBB-980A-E7E9DCE89458</string>
+=======
+	<string>8ED48584-07F1-4C49-97B4-08D062D96566</string>
+>>>>>>> FETCH_HEAD
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
+<<<<<<< HEAD
 			<string>DFF34FB2-8D4A-4DBB-980A-E7E9DCE89458</string>
+=======
+			<string>8ED48584-07F1-4C49-97B4-08D062D96566</string>
+>>>>>>> FETCH_HEAD
 			<key>IDESourceControlWCCName</key>
 			<string>Tic-Tac-Minimax</string>
 		</dict>
