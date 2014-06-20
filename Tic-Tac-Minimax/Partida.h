@@ -10,8 +10,6 @@
 #define __Tic_Tac_Minimax__Partida__
 
 #include <iostream>
-#include "JugadorMax.h"
-#include "JugadorMin.h"
 #include <vector>
 #include "NodoDeJuego.h"
 
@@ -19,28 +17,26 @@ using namespace std;
 
 class Partida {
     
-private:
+private:    
     
-    JugadorMax max;
-    JugadorMin min;
-
-    vector<NodoDeJuego> partida;
-    
-    void sacarHijos(NodoDeJuego* nodo, int j=1);
-    
-    
-    
-    
+    void sacarHijos(NodoDeJuego  nodo, int j=1);
     
 public:
     
     Partida();
     
+    vector<NodoDeJuego> partida;
+    
     bool ganado();
     
-    void desarrollar(NodoDeJuego* nodo);
+    void desarrollar(NodoDeJuego nodo);
     
     long nnodos();
+    
+    int pagoMaxiMin();
+    
+    void calcularPagoMax(int nivel);
+    void calcularPagoMin(int nivel);
     
 };
 

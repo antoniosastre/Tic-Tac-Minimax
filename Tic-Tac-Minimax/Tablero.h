@@ -28,11 +28,13 @@ public:
     Tablero& operator=(const Tablero & otro);
     
     bool insertar(int j, int x, int y);
-    bool terminado();
+    bool lleno();
     
     bool estaLibre(int x, int y);
     
     void imprimir();
+    
+    int ganado();
     
     
 };

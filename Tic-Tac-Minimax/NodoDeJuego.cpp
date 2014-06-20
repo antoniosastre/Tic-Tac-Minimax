@@ -9,16 +9,31 @@
 #include "NodoDeJuego.h"
 
 NodoDeJuego::NodoDeJuego(){
-    this->padre = NULL;
-    this->profundidad = 0;
-    this->tablero = Tablero();
+    padre = NULL;
+    profundidad = 0;
+    tablero = Tablero();
+    pago=0;
+    visitado = false;
 }
 
-NodoDeJuego::NodoDeJuego(NodoDeJuego* padre){
+NodoDeJuego::NodoDeJuego(NodoDeJuego const &copia){
     
-    this->padre = padre;
-    this->profundidad = padre->profundidad+1;
-    this->tablero = padre->tablero;
+    padre = copia.padre;
+    profundidad = copia.profundidad;
+    tablero = Tablero(copia.tablero);
+    pago=copia.pago;
+    visitado = false;
+    
+}
+
+void NodoDeJuego::ponerPadre(NodoDeJuego & papa){
+    
+    padre = &papa;
+    profundidad = papa.profundidad+1;
+    tablero = Tablero(papa.tablero);
+    pago = papa.pago;
+    visitado=false;
+    
     
 }
 
@@ -34,7 +49,17 @@ bool NodoDeJuego::estaLibre(int x, int y){
 
 bool NodoDeJuego::colocar(int j, int x, int y){
     
-    return tablero.insertar(j, x, y);
+    if (tablero.insertar(j, x, y)) {
+        if (ganado()==1) {
+            pago=1;
+        }else if (ganado()==2){
+            pago=-1;
+        }
+        
+        return true;
+    }
+    
+    return false;
     
 }
 
@@ -43,7 +68,9 @@ void NodoDeJuego::setPadre(NodoDeJuego *nodo){
 }
 
 void NodoDeJuego::imprimir(){
-    
     tablero.imprimir();
-    
+}
+
+int NodoDeJuego::ganado(){
+    return tablero.ganado();
 }

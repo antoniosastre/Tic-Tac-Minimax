@@ -19,9 +19,15 @@ int main(int argc, const char * argv[])
     
     NodoDeJuego primero;
     
-    miPartida.desarrollar(&primero);
+    cout << "Empieza..." << endl;
+    
+    miPartida.desarrollar(primero);
+    
+    cout << "Desarrollados los números..." << endl;
     
     cout << "Nº de Nodos obtenidos: " << miPartida.nnodos() << endl;
+    
+    miPartida.pagoMaxiMin();
     
     
     return 0;

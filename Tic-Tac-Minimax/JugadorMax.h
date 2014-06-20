@@ -10,6 +10,7 @@
 #define __Tic_Tac_Minimax__JugadorMax__
 
 #include <iostream>
+#include "Partida.h"
 
 class JugadorMax {
     
@@ -17,6 +18,9 @@ private:
     
 public:
     
+    JugadorMax();
+    
+    void calcularPagos(Partida p, int nivel);
     
 };
 

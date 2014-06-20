@@ -11,8 +11,6 @@
 		FF906739195086E800DCD230 /* Tic_Tac_Minimax.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF906738195086E800DCD230 /* Tic_Tac_Minimax.1 */; };
 		FF906741195087A600DCD230 /* Tablero.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF90673F195087A600DCD230 /* Tablero.cpp */; };
 		FF90674419508A6B00DCD230 /* Partida.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF90674219508A6B00DCD230 /* Partida.cpp */; };
-		FF90674719508AE700DCD230 /* JugadorMin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF90674519508AE700DCD230 /* JugadorMin.cpp */; };
-		FF90674A19508AF000DCD230 /* JugadorMax.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF90674819508AF000DCD230 /* JugadorMax.cpp */; };
 		FF90674D19508B2D00DCD230 /* NodoDeJuego.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF90674B19508B2D00DCD230 /* NodoDeJuego.cpp */; };
 /* End PBXBuildFile section */
 
@@ -37,10 +35,6 @@
 		FF906740195087A600DCD230 /* Tablero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tablero.h; sourceTree = "<group>"; };
 		FF90674219508A6B00DCD230 /* Partida.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Partida.cpp; sourceTree = "<group>"; };
 		FF90674319508A6B00DCD230 /* Partida.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Partida.h; sourceTree = "<group>"; };
-		FF90674519508AE700DCD230 /* JugadorMin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JugadorMin.cpp; sourceTree = "<group>"; };
-		FF90674619508AE700DCD230 /* JugadorMin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JugadorMin.h; sourceTree = "<group>"; };
-		FF90674819508AF000DCD230 /* JugadorMax.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JugadorMax.cpp; sourceTree = "<group>"; };
-		FF90674919508AF000DCD230 /* JugadorMax.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JugadorMax.h; sourceTree = "<group>"; };
 		FF90674B19508B2D00DCD230 /* NodoDeJuego.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NodoDeJuego.cpp; sourceTree = "<group>"; };
 		FF90674C19508B2D00DCD230 /* NodoDeJuego.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodoDeJuego.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,10 +74,6 @@
 				FF906740195087A600DCD230 /* Tablero.h */,
 				FF90674219508A6B00DCD230 /* Partida.cpp */,
 				FF90674319508A6B00DCD230 /* Partida.h */,
-				FF90674519508AE700DCD230 /* JugadorMin.cpp */,
-				FF90674619508AE700DCD230 /* JugadorMin.h */,
-				FF90674819508AF000DCD230 /* JugadorMax.cpp */,
-				FF90674919508AF000DCD230 /* JugadorMax.h */,
 				FF90674B19508B2D00DCD230 /* NodoDeJuego.cpp */,
 				FF90674C19508B2D00DCD230 /* NodoDeJuego.h */,
 				FF906738195086E800DCD230 /* Tic_Tac_Minimax.1 */,
@@ -142,11 +132,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF90674A19508AF000DCD230 /* JugadorMax.cpp in Sources */,
 				FF906737195086E800DCD230 /* main.cpp in Sources */,
 				FF90674419508A6B00DCD230 /* Partida.cpp in Sources */,
 				FF906741195087A600DCD230 /* Tablero.cpp in Sources */,
-				FF90674719508AE700DCD230 /* JugadorMin.cpp in Sources */,
 				FF90674D19508B2D00DCD230 /* NodoDeJuego.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +245,7 @@
 				FF90673E195086E800DCD230 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

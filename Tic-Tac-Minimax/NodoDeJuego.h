@@ -16,23 +16,27 @@ class NodoDeJuego {
     
 private:
     
-    int profundidad;
-    NodoDeJuego *padre;
-    int pago;
-    
     Tablero tablero;
     
 public:
     
+    bool visitado;
+    int profundidad;
+    NodoDeJuego *padre;
+    int pago;
+    
     NodoDeJuego();
-    NodoDeJuego(NodoDeJuego* padre);
+    NodoDeJuego(NodoDeJuego const &copia);
     NodoDeJuego* getPadre();
+    void ponerPadre(NodoDeJuego &papa);
     void setPadre(NodoDeJuego *nodo);
     
     bool estaLibre(int x, int y);
     bool colocar(int j, int x, int y);
     
     void imprimir();
+    
+    int ganado();
     
 };
 

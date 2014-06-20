@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1E1520A5-2C7F-471A-ABAC-9B36198F2C57</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Tic-Tac-Minimax</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DFF34FB2-8D4A-4DBB-980A-E7E9DCE89458</key>
+		<string>https://github.com/antoniosastre/Tic-Tac-Minimax.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Tic-Tac-Minimax.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DFF34FB2-8D4A-4DBB-980A-E7E9DCE89458</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/antoniosastre/Tic-Tac-Minimax.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DFF34FB2-8D4A-4DBB-980A-E7E9DCE89458</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DFF34FB2-8D4A-4DBB-980A-E7E9DCE89458</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Tic-Tac-Minimax</string>
+		</dict>
+	</array>
+</dict>
+</plist>
