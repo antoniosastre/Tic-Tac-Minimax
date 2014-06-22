@@ -88,15 +88,22 @@ void Partida::pagoMaxiMin(){
 void Partida::calcularPagoMin(int nivel){
     
     vector<NodoDeJuego> mismoPadre;
+    vector<NodoDeJuego> mismoNivel;
     
     for (int j=0 ; j < partida.size() ; j++) {
-        if (partida[j].profundidad == nivel && !partida[j].visitado) {
-           partida[j].visitado=true;
-            mismoPadre.push_back(partida[j]);
-            for (int k=0 ; k < partida.size() ; k++) {
-                if (partida[j].padre == partida[k].padre && !partida[k].visitado) {
-                    partida[k].visitado=true;
-                    mismoPadre.push_back(partida[k]);
+        if (partida[j].profundidad == nivel){
+            mismoNivel.push_back(partida[j]);
+        }
+    }
+    
+    for (int j=0 ; j < mismoNivel.size() ; j++) {
+        if (!mismoNivel[j].visitado) {
+           mismoNivel[j].visitado=true;
+            mismoPadre.push_back(mismoNivel[j]);
+            for (int k=0 ; k < mismoNivel.size() ; k++) {
+                if (mismoNivel[j].padre == mismoNivel[k].padre && !mismoNivel[k].visitado) {
+                    mismoNivel[k].visitado=true;
+                    mismoPadre.push_back(mismoNivel[k]);
 
                 }
             }
@@ -127,15 +134,22 @@ void Partida::calcularPagoMin(int nivel){
 void Partida::calcularPagoMax(int nivel){
     
     vector<NodoDeJuego> mismoPadre;
+    vector<NodoDeJuego> mismoNivel;
     
     for (int j=0 ; j < partida.size() ; j++) {
-        if (partida[j].profundidad == nivel && !partida[j].visitado) {
-            partida[j].visitado=true;
-            mismoPadre.push_back(partida[j]);
-            for (int k=0 ; k < partida.size() ; k++) {
-                if (partida[j].padre == partida[k].padre && !partida[k].visitado) {
-                    partida[k].visitado=true;
-                    mismoPadre.push_back(partida[k]);
+        if (partida[j].profundidad == nivel){
+            mismoNivel.push_back(partida[j]);
+        }
+    }
+    
+    for (int j=0 ; j < mismoNivel.size() ; j++) {
+        if (!mismoNivel[j].visitado) {
+            mismoNivel[j].visitado=true;
+            mismoPadre.push_back(mismoNivel[j]);
+            for (int k=0 ; k < mismoNivel.size() ; k++) {
+                if (mismoNivel[j].padre == mismoNivel[k].padre && !mismoNivel[k].visitado) {
+                    mismoNivel[k].visitado=true;
+                    mismoPadre.push_back(mismoNivel[k]);
                     
                 }
             }
