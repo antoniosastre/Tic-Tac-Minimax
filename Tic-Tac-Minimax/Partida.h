@@ -19,7 +19,7 @@ class Partida {
     
 private:    
     
-    void sacarHijos(NodoDeJuego  nodo, int j=1);
+    void sacarHijos(long nodopadre, int jugador=1);
     
 public:
     
@@ -29,14 +29,16 @@ public:
     
     bool ganado();
     
-    void desarrollar(NodoDeJuego nodo);
+    void desarrollar();
     
     long nnodos();
     
-    int pagoMaxiMin();
+    void pagoMaxiMin();
     
     void calcularPagoMax(int nivel);
     void calcularPagoMin(int nivel);
+    
+    int getPagoCero();
     
 };
 

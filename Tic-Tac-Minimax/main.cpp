@@ -17,11 +17,9 @@ int main(int argc, const char * argv[])
 
     Partida miPartida;
     
-    NodoDeJuego primero;
-    
     cout << "Empieza..." << endl;
     
-    miPartida.desarrollar(primero);
+    miPartida.desarrollar();
     
     cout << "Desarrollados los números..." << endl;
     
@@ -29,6 +27,8 @@ int main(int argc, const char * argv[])
     
     miPartida.pagoMaxiMin();
     
+    cout << "Calculados los pagos. Pago máximo del jugador 0: " << miPartida.getPagoCero() << endl;
+
     
     return 0;
 }

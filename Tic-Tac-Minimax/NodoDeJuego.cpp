@@ -9,7 +9,7 @@
 #include "NodoDeJuego.h"
 
 NodoDeJuego::NodoDeJuego(){
-    padre = NULL;
+    padre = -1;
     profundidad = 0;
     tablero = Tablero();
     pago=0;
@@ -26,18 +26,17 @@ NodoDeJuego::NodoDeJuego(NodoDeJuego const &copia){
     
 }
 
-void NodoDeJuego::ponerPadre(NodoDeJuego & papa){
+void NodoDeJuego::ponerPadre(long papa, vector<NodoDeJuego> &partida){
     
-    padre = &papa;
-    profundidad = papa.profundidad+1;
-    tablero = Tablero(papa.tablero);
-    pago = papa.pago;
+    padre = papa;
+    profundidad = partida[papa].profundidad+1;
+    tablero = Tablero(partida[papa].tablero);
+    pago = partida[papa].pago;
     visitado=false;
-    
     
 }
 
-NodoDeJuego* NodoDeJuego::getPadre(){
+long NodoDeJuego::getPadre(){
     return padre;
 }
 
@@ -61,10 +60,6 @@ bool NodoDeJuego::colocar(int j, int x, int y){
     
     return false;
     
-}
-
-void NodoDeJuego::setPadre(NodoDeJuego *nodo){
-    this->padre = nodo;
 }
 
 void NodoDeJuego::imprimir(){

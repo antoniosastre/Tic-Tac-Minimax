@@ -11,6 +11,9 @@
 
 #include <iostream>
 #include "Tablero.h"
+#include <vector>
+
+using namespace std;
 
 class NodoDeJuego {
     
@@ -22,14 +25,13 @@ public:
     
     bool visitado;
     int profundidad;
-    NodoDeJuego *padre;
+    long padre;
     int pago;
     
     NodoDeJuego();
     NodoDeJuego(NodoDeJuego const &copia);
-    NodoDeJuego* getPadre();
-    void ponerPadre(NodoDeJuego &papa);
-    void setPadre(NodoDeJuego *nodo);
+    long getPadre();
+    void ponerPadre(long papa, vector<NodoDeJuego> &partida);
     
     bool estaLibre(int x, int y);
     bool colocar(int j, int x, int y);
