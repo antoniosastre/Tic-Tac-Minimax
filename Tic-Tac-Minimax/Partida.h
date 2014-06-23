@@ -20,6 +20,7 @@ class Partida {
 private:    
     
     void sacarHijos(long nodopadre, int jugador=1);
+    int maxProfundidad;
     
 public:
     
@@ -34,11 +35,21 @@ public:
     long nnodos();
     
     void pagoMaxiMin();
+    void pagoMaxiMin2();
     
     void calcularPagoMax(int nivel);
     void calcularPagoMin(int nivel);
     
+    void calcularPagoMax2(int nivel);
+    void calcularPagoMin2(int nivel);
+    
     int getPagoCero();
+    
+    void printCamino(int nivel);
+    void printPagos();
+    int buscarMaxHijoDe(int nodo);
+    int buscarMinHijoDe(int nodo);
+    void printJugada();
     
 };
 

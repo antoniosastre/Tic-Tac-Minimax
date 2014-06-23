@@ -63,7 +63,11 @@ bool NodoDeJuego::colocar(int j, int x, int y){
 }
 
 void NodoDeJuego::imprimir(){
-    tablero.imprimir();
+    cout << tablero.mesa[0][0] << "|" << tablero.mesa[1][0] << "|" << tablero.mesa[2][0] << endl;
+    cout << "-----" << endl;
+    cout << tablero.mesa[0][1] << "|" << tablero.mesa[1][1] << "|" << tablero.mesa[2][1] << "  - Pago: " << pago << endl;
+    cout << "-----" << endl;
+    cout << tablero.mesa[0][2] << "|" << tablero.mesa[1][2] << "|" << tablero.mesa[2][2] << endl;
 }
 
 int NodoDeJuego::ganado(){

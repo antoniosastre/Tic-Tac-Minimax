@@ -18,10 +18,12 @@ class Tablero {
     
 private:
     
-    int mesa[3][3];
+    
     int libres;
     
 public:
+    
+    int mesa[3][3];
     
     Tablero();
     Tablero(Tablero const &otro);

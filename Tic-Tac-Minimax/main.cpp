@@ -27,7 +27,9 @@ int main(int argc, const char * argv[])
     
     miPartida.pagoMaxiMin();
     
-    cout << "Calculados los pagos. Pago máximo del jugador 0: " << miPartida.getPagoCero() << endl;
+    //miPartida.printPagos();
+    miPartida.printJugada();
+   // miPartida.printCamino(1);
 
     
     return 0;
