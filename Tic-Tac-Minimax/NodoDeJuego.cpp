@@ -36,9 +36,6 @@ void NodoDeJuego::ponerPadre(long papa, vector<NodoDeJuego> &partida){
     
 }
 
-long NodoDeJuego::getPadre(){
-    return padre;
-}
 
 bool NodoDeJuego::estaLibre(int x, int y){
     

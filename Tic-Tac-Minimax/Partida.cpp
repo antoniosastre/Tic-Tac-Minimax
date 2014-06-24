@@ -31,11 +31,6 @@ void Partida::sacarHijos(long nodopadre, int jugador){
                 nuevo.colocar(jugador, x, y);
                 partida.push_back(nuevo);
                 
-                // cout << partida.size() << endl;
-                //partida.back().imprimir();
-                
-                //cout << endl << endl;
-                
                 int nj;
                 if (jugador==1) {
                     nj=2;
@@ -56,6 +51,7 @@ void Partida::desarrollar(){
     
     partida.push_back(primero);
     
+    //Sacar los hijos del nodo 0 del vector siendo este el jugador 1.
     sacarHijos(0, 1);
     
 }
@@ -74,37 +70,17 @@ void Partida::pagoMaxiMin(){
     
     for (int i = maxProfundidad; i > 0; i--) {
         if (i%2==0) {
-            cout << endl << "Pagos del nivel "<<  i << " a su superior." << endl;
+            cout << endl << "Calculados los pagos del nivel "<<  i-1 << "." << endl;
             calcularPagoMin(i);
         }else if(i%2==1){
-            cout << endl << "Pagos del nivel "<<  i << " a su superior." << endl;
+            cout << endl << "Calculados los pagos del nivel "<<  i-1 << "." << endl;
             calcularPagoMax(i);
         }
-        cout << endl << "#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#"<< endl;
     }
+    cout << endl << endl;
     
 }
 
-void Partida::pagoMaxiMin2(){
-    
-    maxProfundidad = 0;
-    
-    for (NodoDeJuego nodo : partida) {
-        if (nodo.profundidad > maxProfundidad) maxProfundidad = nodo.profundidad;
-    }
-    
-    for (int i = maxProfundidad; i > 0; i--) {
-        if (i%2==0) {
-            //cout << endl << "Pagos del nivel "<<  i << " a su superior." << endl;
-            calcularPagoMin2(i);
-        }else if(i%2==1){
-            //cout << endl << "Pagos del nivel "<<  i << " a su superior." << endl;
-            calcularPagoMax2(i);
-        }
-        //cout << endl << "#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#"<< endl;
-    }
-    
-}
 
 void Partida::calcularPagoMin(int nivel){
     
@@ -142,9 +118,6 @@ void Partida::calcularPagoMin(int nivel){
             partida[mismoPadre[0].padre].pago=min;
             
             mismoPadre.clear();
-            
-            //cout << min;
-            
             
             
         }
@@ -191,166 +164,17 @@ void Partida::calcularPagoMax(int nivel){
             
             mismoPadre.clear();
             
-            //cout << max;
-            
         }
     }
     
 }
 
-
-void Partida::calcularPagoMax2(int nivel){
-    
-    vector<NodoDeJuego> mismoNivel;
-    
-    for (int j=0 ; j < partida.size() ; j++) {
-        if (partida[j].profundidad == nivel){
-            mismoNivel.push_back(partida[j]);
-        }
-    }
-    
-    //long antpadre=-1;
-    
-    for (int j=0 ; j < mismoNivel.size() ; j++) {
-        
-        if (partida[mismoNivel[j].padre].pago<mismoNivel[j].pago){
-            
-            partida[mismoNivel[j].padre].pago=mismoNivel[j].pago;
-            
-        }
-        
-//        if( mismoNivel[j].padre != antpadre && antpadre != -1){
-//            cout << partida[mismoNivel[j-1].padre].pago;
-//            
-//        }
-//        
-//        antpadre=mismoNivel[j].padre;
-        
-    }
-    
-}
-
-
-void Partida::calcularPagoMin2(int nivel){
-    
-    vector<NodoDeJuego> mismoNivel;
-    
-    for (int j=0 ; j < partida.size() ; j++) {
-        if (partida[j].profundidad == nivel){
-            mismoNivel.push_back(partida[j]);
-        }
-    }
-
-    //long antpadre=-1;
-    
-    for (int j=0 ; j < mismoNivel.size() ; j++) {
-        
-        if (partida[mismoNivel[j].padre].pago>mismoNivel[j].pago){
-            
-            partida[mismoNivel[j].padre].pago=mismoNivel[j].pago;
-            
-        }
-        
-//        if( mismoNivel[j].padre != antpadre && antpadre != -1){
-//            cout << partida[mismoNivel[j-1].padre].pago;
-//            
-//        }
-//        
-//        antpadre=mismoNivel[j].padre;
-        
-    }
-
-    
-}
 
 int Partida::getPagoCero(){
     return partida[0].pago;
 }
 
 
-void Partida::printCamino(int nivel){
-    
-    if (nivel > maxProfundidad) return;
-    
-        vector<NodoDeJuego> mismoNivel;
-        
-        for (int j=0 ; j < partida.size() ; j++) {
-            if (partida[j].profundidad == nivel){
-                mismoNivel.push_back(partida[j]);
-            }
-        }
-    
-    int minomax=0;
-    if (mismoNivel.size()>0) {
-        minomax=mismoNivel[0].pago;
-    }
-    
-        for (int j=0; j < mismoNivel.size(); j++) {
-            if (nivel%2==1 && mismoNivel[j].pago > minomax){
-                minomax = mismoNivel[j].pago;
-            }else if (nivel%2==0 && mismoNivel[j].pago < minomax){
-                minomax = mismoNivel[j].pago;
-            }
-        }
-        
-    for (int j=0; j < mismoNivel.size(); j++) {
-        if (mismoNivel[j].pago == minomax){
-            mismoNivel[j].imprimir();
-            printCamino(nivel+1);
-            
-        }
-    }
-    
-    }
-
-
-    int Partida::buscarMaxHijoDe(int nodo){
-        
-        if (partida[nodo].profundidad>=maxProfundidad) return -1;
-        vector<NodoDeJuego> mismoPadre;
-        vector<NodoDeJuego> mismoNivel;
-        vector<int> nodoMismoPadre;
-        
-        for (int j=0 ; j < partida.size() ; j++) {
-            if (partida[j].profundidad == partida[nodo].profundidad+1){
-                mismoNivel.push_back(partida[j]);
-            }
-        }
-        
-        for (int j=0 ; j < mismoNivel.size() ; j++) {
-            if (mismoNivel[j].padre==nodo) {
-                mismoNivel[j].visitado=true;
-                mismoPadre.push_back(mismoNivel[j]);
-            }
-            
-        }
-        
-                int max = -1;
-                
-                if (mismoPadre.size()>0) {
-                    max = mismoPadre[0].pago;
-                }
-                
-                for (NodoDeJuego nodo : mismoPadre){
-                    if (nodo.pago>max) max = nodo.pago;
-                }
-                
-                
-                partida[mismoPadre[0].padre].pago=max;
-                
-                mismoPadre.clear();
-                
-                //cout << max;
-            
-
-        
-        return -1;
-    }
-
-    int Partida::buscarMinHijoDe(int nodo){
-    
-        return -1;
-    }
 
 void Partida::printPagos(){
     
@@ -377,6 +201,13 @@ void Partida::printJugada(){
     for (int nivel=1 ; nivel <= maxProfundidad ; nivel++) {
         for (int j=0 ; j < partida.size() ; j++) {
             if (partida[j].padre == padre && partida[j].pago==pago){
+                
+                if (nivel-1%2==0){
+                    cout << "El jugador MAX hace:" << endl;
+                }else{
+                    cout << "El jugador MIN hace:" << endl;
+                }
+                
                 partida[j].imprimir();
                 cout << endl;
                 padre=j;

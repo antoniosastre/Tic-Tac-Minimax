@@ -19,7 +19,10 @@ class Partida {
     
 private:    
     
+    //Obtener los nodos hijos del padre dado del vector de la partida actuando como el jugador "jugador".
     void sacarHijos(long nodopadre, int jugador=1);
+    
+    //Profundida máxima de las hojas del árbol.
     int maxProfundidad;
     
 public:
@@ -28,27 +31,31 @@ public:
     
     vector<NodoDeJuego> partida;
     
+    //Indica si hay un ganador.
     bool ganado();
     
+    //Calcular los todos los nodos de todas las jugadas posibles del juego del tres en raya.
     void desarrollar();
     
+    //Número de nodos desarrollados.
     long nnodos();
     
+    //Calcula los pagos para los nodos desarrollados. Desde las hojas hasta la raíz.
     void pagoMaxiMin();
-    void pagoMaxiMin2();
     
+    //Calcula los pagos del nivel "nivel" del árbol como jugador Max.
     void calcularPagoMax(int nivel);
+    
+    //Calcula los pagos del nivel "nivel" del árbol como jugador Min.
     void calcularPagoMin(int nivel);
-    
-    void calcularPagoMax2(int nivel);
-    void calcularPagoMin2(int nivel);
-    
+
+    //Devuelve el pago del jugador en el nivel 0.
     int getPagoCero();
     
-    void printCamino(int nivel);
+    //Imprime los pagos de los nodos por pantalla.
     void printPagos();
-    int buscarMaxHijoDe(int nodo);
-    int buscarMinHijoDe(int nodo);
+    
+    //Imprime por pantalla una jugada.
     void printJugada();
     
 };

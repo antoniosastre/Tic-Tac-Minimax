@@ -23,21 +23,32 @@ private:
     
 public:
     
+    //Almacena si el nodo se ha visitado en la fase de transmisión de pagos.
     bool visitado;
+    
+    //Nivel del nodo.
     int profundidad;
+    
+    //Posición del padre del nodo en el vector de la partida.
     long padre;
+    
+    //Pago de este nodo.
     int pago;
     
     NodoDeJuego();
     NodoDeJuego(NodoDeJuego const &copia);
-    long getPadre();
+    
+    //Establece el padre del nodo.
     void ponerPadre(long papa, vector<NodoDeJuego> &partida);
     
     bool estaLibre(int x, int y);
+    
     bool colocar(int j, int x, int y);
     
+    //Imprime el tablero y el pago del nodo.
     void imprimir();
     
+    //Indica si el nodo tiene un ganador.
     int ganado();
     
 };

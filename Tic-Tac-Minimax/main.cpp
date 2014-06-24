@@ -27,9 +27,10 @@ int main(int argc, const char * argv[])
     
     miPartida.pagoMaxiMin();
     
+    //Si se quiern imprimir los pagos de los nodos descomentar la siguiente línea.
     //miPartida.printPagos();
+    
     miPartida.printJugada();
-   // miPartida.printCamino(1);
 
     
     return 0;
