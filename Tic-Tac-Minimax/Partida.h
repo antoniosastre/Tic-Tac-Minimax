@@ -30,9 +30,7 @@ public:
     Partida();
     
     vector<NodoDeJuego> partida;
-    
-    //Indica si hay un ganador.
-    bool ganado();
+
     
     //Calcular los todos los nodos de todas las jugadas posibles del juego del tres en raya.
     void desarrollar();
